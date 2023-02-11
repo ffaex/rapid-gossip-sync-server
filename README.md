@@ -23,6 +23,7 @@ can be made by setting environment variables, whose usage is as follows:
 | BITCOIN_REST_PORT                    | 8332                | HTTP port of the bitcoind REST server                                                                      |
 | BITCOIN_REST_PATH                    | /rest/              | Path infix to access the bitcoind REST endpoints                                                           |
 | LN_PEERS                             | _Wallet of Satoshi_ | Comma separated list of LN peers to use for retrieving gossip                                              |
+| SNAPSHOT_CALCULATION_INTERVAL |       24 hours            | Interval at which the snapshots are refreshed
 
 ### downloader
 
